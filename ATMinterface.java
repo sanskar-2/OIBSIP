@@ -10,13 +10,6 @@ class BankAccount {
 	int transactions = 0;
 	String transactionHistory = "";
 	
-	// BankAccount(String name, String userName, String password, String accountNo) {
-	// this.name = name;
-	// this.userName = userName;
-	// this.password = password;
-	// this.accountNo = accountNo;
-	// }
-	
 	public void register() {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("\nEnter Your Name - ");
